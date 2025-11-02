@@ -1,0 +1,117 @@
+{
+  "client": [
+    {
+      "client_name": "Laura García",
+      "postal code": "08015",
+      "phone": "612345789",
+      "e-mail": "laura.garcia@example.com",
+      "register_date": "2025-10-20",
+      "referral_client": null,
+      "last_bill": [
+        {
+          "id": "bill101",
+          "bill_date": "2025-11-02",
+          "bill_hour": "10:30:00",
+          "employee": "Miguel Sánchez",
+          "eyeglasses": [
+            {
+              "id": "glass101",
+              "brand": "Prada",
+              "glass_graduation": [
+                {
+                  "right_eye": -0.75,
+                  "left_eye": -1.00
+                }
+              ],
+              "frame_type": "pasta",
+              "frame_color": "azul",
+              "lens:color": [
+                {
+                  "right_lens": "verde",
+                  "left_lens": "verde"
+                }
+              ],
+              "price": 150,
+              "supplier": [
+                {
+                  "supplier_name": "VisiónPerfecta SL",
+                  "telephone": "623456789",
+                  "nif": "B87654321",
+                  "fax": null,
+                  "address": [
+                    {
+                      "street": "Calle Mayor",
+                      "number": 21,
+                      "flat": 3,
+                      "door": 2,
+                      "city": "Madrid",
+                      "postal_code": "28013",
+                      "country": "Spain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_name": "Carlos Fernández",
+      "postal code": "08025",
+      "phone": "698123654",
+      "e-mail": "carlos.fernandez@example.com",
+      "register_date": "2025-09-12",
+      "referral_client": "Laura García",
+      "last_bill": [
+        {
+          "id": "bill102",
+          "bill_date": "2025-11-01",
+          "bill_hour": "15:45:00",
+          "employee": "Ana López",
+          "eyeglasses": [
+            {
+              "id": "glass102",
+              "brand": "Versace",
+              "glass_graduation": [
+                {
+                  "right_eye": -1.25,
+                  "left_eye": -1.50
+                }
+              ],
+              "frame_type": "metálica",
+              "frame_color": "negro",
+              "lens:color": [
+                {
+                  "right_lens": "gris",
+                  "left_lens": "gris"
+                }
+              ],
+              "price": 200,
+              "supplier": [
+                {
+                  "supplier_name": "Óptica Central",
+                  "telephone": "634789123",
+                  "nif": "B12345679",
+                  "fax": null,
+                  "address": [
+                    {
+                      "street": "Avenida de la Libertad",
+                      "number": 10,
+                      "flat": 1,
+                      "door": 1,
+                      "city": "Barcelona",
+                      "postal_code": "08007",
+                      "country": "Spain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
