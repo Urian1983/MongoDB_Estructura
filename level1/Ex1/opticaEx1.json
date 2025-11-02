@@ -1,0 +1,232 @@
+{
+  {
+  "VERSION_1_EYEGLASSES": {
+    "eyeglasses": [
+      {
+        "_id": "glass001",
+        "brand": "Prada",
+        "graduation": {
+          "right": 1.5,
+          "left": 1.2
+        },
+        "frame": {
+          "type": "pasta",
+          "color": "azul"
+        },
+        "lenses": {
+          "right_color": "verde",
+          "left_color": "verde"
+        },
+        "price": 150,
+        "supplier": {
+          "name": "Visión Perfecta SL",
+          "telephone": "623456789",
+          "nif": "B87654321",
+          "fax": null,
+          "address": {
+            "street": "Calle Mayor",
+            "number": 21,
+            "flat": 3,
+            "door": 2,
+            "city": "Madrid",
+            "postal_code": "28013",
+            "country": "Spain"
+          }
+        },
+        "client": {
+          "name": "Laura García",
+          "postal_code": "08015",
+          "phone": "612345789",
+          "email": "laura.garcia@example.com",
+          "register_date": "2025-10-20",
+          "referral_client_id": null
+        },
+        "last_bill": {
+          "id": "bill101",
+          "date": "2025-11-02T10:30:00.000Z",
+          "employee": "Miguel Sánchez",
+          "supplier": {
+            "name": "Óptica Central",
+            "telephone": "634789123",
+            "nif": "B12345679",
+            "fax": null,
+            "address": {
+              "street": "Avenida de la Libertad",
+              "number": 10,
+              "flat": 1,
+              "door": 1,
+              "city": "Barcelona",
+              "postal_code": "08007",
+              "country": "Spain"
+            }
+          }
+        }
+      },
+      {
+        "_id": "glass002",
+        "brand": "Oakley",
+        "graduation": {
+          "right": -0.75,
+          "left": -1.0
+        },
+        "frame": {
+          "type": "metálica",
+          "color": "negro"
+        },
+        "lenses": {
+          "right_color": "gris",
+          "left_color": "gris"
+        },
+        "price": 200,
+        "supplier": {
+          "name": "Óptica Central",
+          "telephone": "634789123",
+          "nif": "B12345679",
+          "fax": null,
+          "address": {
+            "street": "Avenida de la Libertad",
+            "number": 10,
+            "flat": 1,
+            "door": 1,
+            "city": "Barcelona",
+            "postal_code": "08007",
+            "country": "Spain"
+          }
+        },
+        "client": {
+          "name": "Carlos Fernández",
+          "postal_code": "08025",
+          "phone": "698123654",
+          "email": "carlos.fernandez@example.com",
+          "register_date": "2025-09-12",
+          "referral_client_id": "cli001"
+        },
+        "last_bill": {
+          "id": "bill102",
+          "date": "2025-11-01T15:45:00.000Z",
+          "employee": "Ana López",
+          "supplier": {
+            "name": "Óptica Central",
+            "telephone": "634789123",
+            "nif": "B12345679",
+            "fax": null,
+            "address": {
+              "street": "Avenida de la Libertad",
+              "number": 10,
+              "flat": 1,
+              "door": 1,
+              "city": "Barcelona",
+              "postal_code": "08007",
+              "country": "Spain"
+            }
+          }
+        }
+      }
+    ]
+  },
+
+  "VERSION_2_CLIENTS": {
+    "clients": [
+      {
+        "_id": "cli001",
+        "name": "Laura García",
+        "postal_code": "08015",
+        "phone": "612345789",
+        "email": "laura.garcia@example.com",
+        "register_date": "2025-10-20",
+        "referral_client_id": null,
+        "bills": [
+          {
+            "id": "bill101",
+            "date": "2025-11-02T10:30:00.000Z",
+            "employee": "Miguel Sánchez",
+            "eyeglasses": [
+              {
+                "id": "glass101",
+                "brand": "Prada",
+                "graduation": {
+                  "right": -0.75,
+                  "left": -1.00
+                },
+                "frame": {
+                  "type": "pasta",
+                  "color": "azul"
+                },
+                "lenses": {
+                  "right_color": "verde",
+                  "left_color": "verde"
+                },
+                "price": 150,
+                "supplier": {
+                  "name": "Visión Perfecta SL",
+                  "telephone": "623456789",
+                  "nif": "B87654321",
+                  "fax": null,
+                  "address": {
+                    "street": "Calle Mayor",
+                    "number": 21,
+                    "flat": 3,
+                    "door": 2,
+                    "city": "Madrid",
+                    "postal_code": "28013",
+                    "country": "Spain"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "cli002",
+        "name": "Carlos Fernández",
+        "postal_code": "08025",
+        "phone": "698123654",
+        "email": "carlos.fernandez@example.com",
+        "register_date": "2025-09-12",
+        "referral_client_id": "cli001",
+        "bills": [
+          {
+            "id": "bill102",
+            "date": "2025-11-01T15:45:00.000Z",
+            "employee": "Ana López",
+            "eyeglasses": [
+              {
+                "id": "glass102",
+                "brand": "Versace",
+                "graduation": {
+                  "right": -1.25,
+                  "left": -1.50
+                },
+                "frame": {
+                  "type": "metálica",
+                  "color": "negro"
+                },
+                "lenses": {
+                  "right_color": "gris",
+                  "left_color": "gris"
+                },
+                "price": 200,
+                "supplier": {
+                  "name": "Óptica Central",
+                  "telephone": "634789123",
+                  "nif": "B12345679",
+                  "fax": null,
+                  "address": {
+                    "street": "Avenida de la Libertad",
+                    "number": 10,
+                    "flat": 1,
+                    "door": 1,
+                    "city": "Barcelona",
+                    "postal_code": "08007",
+                    "country": "Spain"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
